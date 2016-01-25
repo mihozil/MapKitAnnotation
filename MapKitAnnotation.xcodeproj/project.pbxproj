@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FF24CB1C536B66006A25FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF24CA1C536B66006A25FE /* main.m */; };
+		18FF24CE1C536B66006A25FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF24CD1C536B66006A25FE /* AppDelegate.m */; };
+		18FF24D11C536B66006A25FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF24D01C536B66006A25FE /* ViewController.m */; };
+		18FF24D41C536B66006A25FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FF24D21C536B66006A25FE /* Main.storyboard */; };
+		18FF24D61C536B66006A25FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FF24D51C536B66006A25FE /* Assets.xcassets */; };
+		18FF24D91C536B66006A25FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FF24D71C536B66006A25FE /* LaunchScreen.storyboard */; };
+		18FF24E41C536B66006A25FE /* MapKitAnnotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF24E31C536B66006A25FE /* MapKitAnnotationTests.m */; };
+		18FF24EF1C536B66006A25FE /* MapKitAnnotationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF24EE1C536B66006A25FE /* MapKitAnnotationUITests.m */; };
+		18FF24FD1C536B8B006A25FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FF24FC1C536B8B006A25FE /* CoreLocation.framework */; };
+		18FF24FF1C536B96006A25FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FF24FE1C536B96006A25FE /* MapKit.framework */; };
+		18FF25021C5372E6006A25FE /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF25011C5372E6006A25FE /* CustomAnnotation.m */; };
+		18FF25041C53856E006A25FE /* coder.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF25031C53856E006A25FE /* coder.png */; };
+		18FF25081C5387C1006A25FE /* ftu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FF25071C5387C1006A25FE /* ftu.jpg */; };
+		18FF250F1C538B06006A25FE /* DetailFTUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF250D1C538B06006A25FE /* DetailFTUViewController.m */; };
+		18FF25101C538B06006A25FE /* DetailFTUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FF250E1C538B06006A25FE /* DetailFTUViewController.xib */; };
+		18FF25121C538BD2006A25FE /* ftuabove.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF25111C538BD2006A25FE /* ftuabove.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FF24E01C536B66006A25FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FF24BE1C536B66006A25FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FF24C51C536B66006A25FE;
+			remoteInfo = MapKitAnnotation;
+		};
+		18FF24EB1C536B66006A25FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FF24BE1C536B66006A25FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FF24C51C536B66006A25FE;
+			remoteInfo = MapKitAnnotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FF24C61C536B66006A25FE /* MapKitAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF24CA1C536B66006A25FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FF24CC1C536B66006A25FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FF24CD1C536B66006A25FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FF24CF1C536B66006A25FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FF24D01C536B66006A25FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FF24D31C536B66006A25FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FF24D51C536B66006A25FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FF24D81C536B66006A25FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FF24DA1C536B66006A25FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF24DF1C536B66006A25FE /* MapKitAnnotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitAnnotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF24E31C536B66006A25FE /* MapKitAnnotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitAnnotationTests.m; sourceTree = "<group>"; };
+		18FF24E51C536B66006A25FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF24EA1C536B66006A25FE /* MapKitAnnotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitAnnotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF24EE1C536B66006A25FE /* MapKitAnnotationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitAnnotationUITests.m; sourceTree = "<group>"; };
+		18FF24F01C536B66006A25FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF24FC1C536B8B006A25FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18FF24FE1C536B96006A25FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18FF25001C5372E6006A25FE /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		18FF25011C5372E6006A25FE /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		18FF25031C53856E006A25FE /* coder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coder.png; path = ../../../../Downloads/CustomPinAnnotation/CustomPinAnnotation/coder.png; sourceTree = "<group>"; };
+		18FF25071C5387C1006A25FE /* ftu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ftu.jpg; path = ../../../../Downloads/ftu.jpg; sourceTree = "<group>"; };
+		18FF250C1C538B06006A25FE /* DetailFTUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailFTUViewController.h; sourceTree = "<group>"; };
+		18FF250D1C538B06006A25FE /* DetailFTUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailFTUViewController.m; sourceTree = "<group>"; };
+		18FF250E1C538B06006A25FE /* DetailFTUViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailFTUViewController.xib; sourceTree = "<group>"; };
+		18FF25111C538BD2006A25FE /* ftuabove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ftuabove.png; path = ../../../../Downloads/ftuabove.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FF24C31C536B66006A25FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF24FF1C536B96006A25FE /* MapKit.framework in Frameworks */,
+				18FF24FD1C536B8B006A25FE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24DC1C536B66006A25FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24E71C536B66006A25FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FF24BD1C536B66006A25FE = {
+			isa = PBXGroup;
+			children = (
+				18FF24FE1C536B96006A25FE /* MapKit.framework */,
+				18FF24FC1C536B8B006A25FE /* CoreLocation.framework */,
+				18FF24C81C536B66006A25FE /* MapKitAnnotation */,
+				18FF24E21C536B66006A25FE /* MapKitAnnotationTests */,
+				18FF24ED1C536B66006A25FE /* MapKitAnnotationUITests */,
+				18FF24C71C536B66006A25FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FF24C71C536B66006A25FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FF24C61C536B66006A25FE /* MapKitAnnotation.app */,
+				18FF24DF1C536B66006A25FE /* MapKitAnnotationTests.xctest */,
+				18FF24EA1C536B66006A25FE /* MapKitAnnotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FF24C81C536B66006A25FE /* MapKitAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				18FF24CC1C536B66006A25FE /* AppDelegate.h */,
+				18FF24CD1C536B66006A25FE /* AppDelegate.m */,
+				18FF24CF1C536B66006A25FE /* ViewController.h */,
+				18FF24D01C536B66006A25FE /* ViewController.m */,
+				18FF24D21C536B66006A25FE /* Main.storyboard */,
+				18FF24D51C536B66006A25FE /* Assets.xcassets */,
+				18FF24D71C536B66006A25FE /* LaunchScreen.storyboard */,
+				18FF24DA1C536B66006A25FE /* Info.plist */,
+				18FF24C91C536B66006A25FE /* Supporting Files */,
+				18FF25001C5372E6006A25FE /* CustomAnnotation.h */,
+				18FF25011C5372E6006A25FE /* CustomAnnotation.m */,
+			);
+			path = MapKitAnnotation;
+			sourceTree = "<group>";
+		};
+		18FF24C91C536B66006A25FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FF25111C538BD2006A25FE /* ftuabove.png */,
+				18FF25071C5387C1006A25FE /* ftu.jpg */,
+				18FF25031C53856E006A25FE /* coder.png */,
+				18FF24CA1C536B66006A25FE /* main.m */,
+				18FF250C1C538B06006A25FE /* DetailFTUViewController.h */,
+				18FF250D1C538B06006A25FE /* DetailFTUViewController.m */,
+				18FF250E1C538B06006A25FE /* DetailFTUViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FF24E21C536B66006A25FE /* MapKitAnnotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FF24E31C536B66006A25FE /* MapKitAnnotationTests.m */,
+				18FF24E51C536B66006A25FE /* Info.plist */,
+			);
+			path = MapKitAnnotationTests;
+			sourceTree = "<group>";
+		};
+		18FF24ED1C536B66006A25FE /* MapKitAnnotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FF24EE1C536B66006A25FE /* MapKitAnnotationUITests.m */,
+				18FF24F01C536B66006A25FE /* Info.plist */,
+			);
+			path = MapKitAnnotationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FF24C51C536B66006A25FE /* MapKitAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF24F31C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotation" */;
+			buildPhases = (
+				18FF24C21C536B66006A25FE /* Sources */,
+				18FF24C31C536B66006A25FE /* Frameworks */,
+				18FF24C41C536B66006A25FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapKitAnnotation;
+			productName = MapKitAnnotation;
+			productReference = 18FF24C61C536B66006A25FE /* MapKitAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FF24DE1C536B66006A25FE /* MapKitAnnotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF24F61C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotationTests" */;
+			buildPhases = (
+				18FF24DB1C536B66006A25FE /* Sources */,
+				18FF24DC1C536B66006A25FE /* Frameworks */,
+				18FF24DD1C536B66006A25FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FF24E11C536B66006A25FE /* PBXTargetDependency */,
+			);
+			name = MapKitAnnotationTests;
+			productName = MapKitAnnotationTests;
+			productReference = 18FF24DF1C536B66006A25FE /* MapKitAnnotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FF24E91C536B66006A25FE /* MapKitAnnotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF24F91C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotationUITests" */;
+			buildPhases = (
+				18FF24E61C536B66006A25FE /* Sources */,
+				18FF24E71C536B66006A25FE /* Frameworks */,
+				18FF24E81C536B66006A25FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FF24EC1C536B66006A25FE /* PBXTargetDependency */,
+			);
+			name = MapKitAnnotationUITests;
+			productName = MapKitAnnotationUITests;
+			productReference = 18FF24EA1C536B66006A25FE /* MapKitAnnotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FF24BE1C536B66006A25FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AMOSC;
+				TargetAttributes = {
+					18FF24C51C536B66006A25FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18FF24DE1C536B66006A25FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18FF24C51C536B66006A25FE;
+					};
+					18FF24E91C536B66006A25FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18FF24C51C536B66006A25FE;
+					};
+				};
+			};
+			buildConfigurationList = 18FF24C11C536B66006A25FE /* Build configuration list for PBXProject "MapKitAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FF24BD1C536B66006A25FE;
+			productRefGroup = 18FF24C71C536B66006A25FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FF24C51C536B66006A25FE /* MapKitAnnotation */,
+				18FF24DE1C536B66006A25FE /* MapKitAnnotationTests */,
+				18FF24E91C536B66006A25FE /* MapKitAnnotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FF24C41C536B66006A25FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF25121C538BD2006A25FE /* ftuabove.png in Resources */,
+				18FF24D91C536B66006A25FE /* LaunchScreen.storyboard in Resources */,
+				18FF25081C5387C1006A25FE /* ftu.jpg in Resources */,
+				18FF25041C53856E006A25FE /* coder.png in Resources */,
+				18FF25101C538B06006A25FE /* DetailFTUViewController.xib in Resources */,
+				18FF24D61C536B66006A25FE /* Assets.xcassets in Resources */,
+				18FF24D41C536B66006A25FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24DD1C536B66006A25FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24E81C536B66006A25FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FF24C21C536B66006A25FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF24D11C536B66006A25FE /* ViewController.m in Sources */,
+				18FF250F1C538B06006A25FE /* DetailFTUViewController.m in Sources */,
+				18FF24CE1C536B66006A25FE /* AppDelegate.m in Sources */,
+				18FF24CB1C536B66006A25FE /* main.m in Sources */,
+				18FF25021C5372E6006A25FE /* CustomAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24DB1C536B66006A25FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF24E41C536B66006A25FE /* MapKitAnnotationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF24E61C536B66006A25FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF24EF1C536B66006A25FE /* MapKitAnnotationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FF24E11C536B66006A25FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FF24C51C536B66006A25FE /* MapKitAnnotation */;
+			targetProxy = 18FF24E01C536B66006A25FE /* PBXContainerItemProxy */;
+		};
+		18FF24EC1C536B66006A25FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FF24C51C536B66006A25FE /* MapKitAnnotation */;
+			targetProxy = 18FF24EB1C536B66006A25FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FF24D21C536B66006A25FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FF24D31C536B66006A25FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FF24D71C536B66006A25FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FF24D81C536B66006A25FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FF24F11C536B66006A25FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FF24F21C536B66006A25FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FF24F41C536B66006A25FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapKitAnnotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FF24F51C536B66006A25FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapKitAnnotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FF24F71C536B66006A25FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapKitAnnotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKitAnnotation.app/MapKitAnnotation";
+			};
+			name = Debug;
+		};
+		18FF24F81C536B66006A25FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapKitAnnotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKitAnnotation.app/MapKitAnnotation";
+			};
+			name = Release;
+		};
+		18FF24FA1C536B66006A25FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapKitAnnotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapKitAnnotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18FF24FB1C536B66006A25FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapKitAnnotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mihozil.MapKitAnnotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapKitAnnotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FF24C11C536B66006A25FE /* Build configuration list for PBXProject "MapKitAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF24F11C536B66006A25FE /* Debug */,
+				18FF24F21C536B66006A25FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FF24F31C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF24F41C536B66006A25FE /* Debug */,
+				18FF24F51C536B66006A25FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FF24F61C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF24F71C536B66006A25FE /* Debug */,
+				18FF24F81C536B66006A25FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FF24F91C536B66006A25FE /* Build configuration list for PBXNativeTarget "MapKitAnnotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF24FA1C536B66006A25FE /* Debug */,
+				18FF24FB1C536B66006A25FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FF24BE1C536B66006A25FE /* Project object */;
+}
